@@ -155,6 +155,7 @@ Select dsoa-runtime project and "Run as... Java Application"
 
 2.2. Installing and Executing Homebroker Example:
 start file:apps/HomebrokerModel.jar
+start file:apps/simulated-service.jar
 start file:apps/simulation/simulatedBbc.jar
 start file:apps/simulation/simulatedBlo.jar
 start file:apps/simulation/simulatedCnn.jar
