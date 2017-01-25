@@ -156,12 +156,16 @@ Select dsoa-runtime project and "Run as... Java Application"
 2.2. Installing and Executing Homebroker Example:
 start file:apps/HomebrokerModel.jar
 start file:apps/simulated-service.jar
+# ATÉ ESSE PONTO, O BUNDLE DA PLATAFORMA ESTARÁ NORMALMENTE NO AR, MAS NÃO HAVERÁ FÁBRICA DE COMPONENTE PUBLICADA
+# UMA VEZ QUE NENHUM DsoaComponent FOI DECLARADO
 start file:apps/simulation/simulatedBbc.jar
 start file:apps/simulation/simulatedBlo.jar
 start file:apps/simulation/simulatedCnn.jar
 start file:apps/simulation/simulatedBov.jar
 start file:apps/HomebrokerBB.jar
 start file:apps/HomebrokerBBClient.jar
+
+arch -instance Homebroker-BB-Instance
 
 2.3. Basic Felix Commands:
 A plataforma DSOA foi construída em cima de OSGi/DOSGi (em particular, Felix e CXF/Zookeeper) e iPojo. Neste contexto, conhecer os comandos disponibilizados pelo shell do 
